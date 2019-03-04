@@ -12,6 +12,7 @@ variables:
     PB_PublishBlobFeedUrl: https://dotnetcli.blob.core.windows.net/dotnet/index.json
     _DotNetPublishToBlobFeed: true
     _PublishType: blob
+    - group: DotNet-Blob-Feed
 
 jobs:
 - template: /eng/build.yml
